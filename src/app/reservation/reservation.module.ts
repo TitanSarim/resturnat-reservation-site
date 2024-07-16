@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ReservationFormComponent } from '../reservation-form/reservation-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ReservationListComponent, } from '../reservation-list/reservation-list.component';
-import { FormGroup } from '@angular/forms';
+
 
 @NgModule({
   declarations: [],
@@ -12,7 +12,7 @@ import { FormGroup } from '@angular/forms';
     FormsModule,
     ReservationFormComponent,
     ReservationListComponent,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ]
 })
 export class ReservationModule { }
